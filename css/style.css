@@ -1,0 +1,90 @@
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------- GLOBAL ----------------------------------------*/
+/* -------- Balises et class appelés à plusieurs endroits dans la page---------------- */
+/*-------------------------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box; /*Je précise ma box-sizing (pour une width qui prenne le padding)*/
+    outline: none; /*Pour que les éléments sur lequel le user clique ne soient pas encadrés en bleu*/
+}
+
+body {
+	margin: 0; /*Je colle mon body aux dimensions de la page web*/
+}
+
+a, a:hover, a:visited, a:active {
+    text-decoration: none; /*Ne souligne pas les liens*/
+}
+
+/* Mettre en gras un élément */
+.bold {font-weight: bold}
+
+tr {
+    height: 50px;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #2894d1;
+}
+
+tr:nth-child(1) {
+    background-color: #34a853;
+}
+
+td {
+    border: 3px solid black;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+
+td:nth-child(1) {
+    background-color: #34a853;
+}
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------- HEADER ----------------------------------------*/
+/* --------------------- Ce qui concerne le header et la nav ------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------- MAIN -----------------------------------------*/
+/* ------------------------ Ce qui concerne le corps du site ------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/*------------------------------------- FOOTER ----------------------------------------*/
+/* --------------------------- Ce qui concerne le footer ----------------------------- */
+/*-------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------- RESPONSIVE --------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+/*Propriétés CSS pour petits ordis et grosses tablettes qui cascadent sur petites tablettes et mobiles*/
+@media screen and (max-width: 1024px)
+{
+    
+}
+
+
+/*Propriétés CSS pour petites tablettes et gros téléphones qui cascadent sur le mobile*/
+@media screen and (max-width: 768px)
+{
+    
+}
+
+
+/*Propriétés CSS pour affichage mobile, prenant déjà en compte le précédent @media*/
+@media screen and (max-width: 480px) 
+{
+
+}
